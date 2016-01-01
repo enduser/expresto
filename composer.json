@@ -1,20 +1,8 @@
 {
-    "name": "zendframework/zend-expressive-skeleton",
+    "name": "fcoambrozio/expresto",
     "type": "project",
-    "homepage": "https://github.com/zendframework/zend-expressive-skeleton",
+    "homepage": "https://github.com/fcoambrozio/expresto",
     "license": "BSD-3-CLAUSE",
-    "authors": [
-        {
-            "name": "Geert Eltink",
-            "homepage": "https://xtreamwayz.com/"
-        }
-    ],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev",
-            "dev-develop": "1.1-dev"
-        }
-    },
     "require": {
         "php": "^5.5 || ^7.0",
         "roave/security-advisories": "dev-master",
@@ -40,15 +28,5 @@
         "psr-4": {
             "AppTest\\": "test/AppTest/"
         }
-    },
-    "scripts": {
-        "check": [
-            "@cs",
-            "@test"
-        ],
-        "cs": "phpcs",
-        "cs-fix": "phpcbf",
-        "serve": "php -S 0.0.0.0:8080 -t public/",
-        "test": "phpunit"
     }
 }
